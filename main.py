@@ -1,10 +1,10 @@
 from task import add_task, list_tasks, complete_task, remove_task
 
-WELCOME_MESSAGE = "Welcome to Task Manager CLI! Nikilaaaaa"
+WELCOME_MESSAGE = "Welcome to Task Manager CLI! Updated By Saditha Boxrec"
 
 
 def show_help():
-    """Print available commands."""
+
     print("""
 Commands:
   list              - Show all tasks

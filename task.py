@@ -25,7 +25,7 @@ def list_tasks():
 
     print("\n--- Your Tasks ---")
     for task in tasks:
-        status = "✅" if task["done"] else "⬜"
+        status = "Correct" if task["done"] else "⬜"
         print(f"  [{task['id']}] {status}  {task['title']}")
     print()
 
